@@ -1,0 +1,24 @@
+         
+************  MERGE SORT PROJESİ **********
+
+*Merge Sort*
+*Listeyi tek eleman kalana kadar arçalara bölüp,sıralı şekilde birleştirip bize gösterir.
+ örnek:
+
+[16,21,11,8,12,22] listesinin sıralanması;
+
+                                     [16,21,11,8,12,22]
+
+                    [16,21,11]                                   [8,12,22]                  
+ 
+         [16]                   [21,11]                 [8]                [12,22]
+ 
+     [16]              [21]              [11]          [8]          [12]           [22]    
+
+                    [11,16,21]                                      [8,12,22]           --> sıralı dizildi
+
+                                      [8,11,12,16,21,22]        --> liste sıralı biçimde oluşturuldu       
+
+
+
+*Big-O gösterimi: O(nlogn)                                      
